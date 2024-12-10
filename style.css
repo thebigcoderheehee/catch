@@ -2,6 +2,7 @@ body {
     margin: 0;
     align-items: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     height: 100vh;
     background-color: darkcyan;
@@ -23,7 +24,8 @@ body {
     left: 10px;
     font-size: 20px;
 }
-.basket{
+
+.basket {
     height: 20px;
     width: 70px;
     background-color: lightsalmon;
@@ -31,7 +33,8 @@ body {
     bottom: 6px;
     left: 170px;
 }
-.ball{
+
+.ball {
     position: absolute;
     height: 25px;
     width: 25px;
@@ -39,4 +42,21 @@ body {
     background-color: lightsalmon;
     top: -50px;
     left: 190px;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.controls button:hover {
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
 }
